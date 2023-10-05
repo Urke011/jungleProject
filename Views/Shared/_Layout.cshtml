@@ -28,9 +28,9 @@
                 </div>
             </div>
             <div class="navbar-wrapper">
-            <div class="container-fluid">  
+            <div class="">  
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand"  asp-area="" asp-controller="Home" asp-action="Index">
                             <img src="@Url.Content("~/images/logo-jt-green.svg")" alt="jungle-logo" style="width: 10rem;" />
                         </a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -93,6 +93,11 @@
             </div>
             </div>
         </nav>
+        <div class="mainImg">
+            <div class="">
+                <img src="@Url.Content("~/images/jtbg.min.jpg")" alt="mainImg" class="w-100" />
+            </div>
+        </div>
 <!--
 
 

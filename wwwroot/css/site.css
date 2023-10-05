@@ -21,17 +21,15 @@ body {
   margin-bottom: 60px;
 }
 .navbar-wrapper {
-    margin: 0 auto;
-    width: 50%;
     display: flex;
+    justify-content: center;
     white-space: nowrap;
 }
 .nav-item a{
-    font-size: small;
+    font-size: initial;
 }
 .nav-icons {
-    margin: 0 auto;
-    width: 50%;
+    justify-content: center;
 }
 .nav-icons span {
     font-size: x-small;
@@ -50,6 +48,9 @@ body {
 .navbar-link-third {
     color: #ffac00 !important;
 }
-.first-icon{
-    margin-left: 3% !important;
+
+.mainImg img {
+    height: 30vh;
+    object-fit: cover;
+    object-position: 60% 80%;
 }
